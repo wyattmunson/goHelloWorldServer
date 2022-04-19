@@ -41,3 +41,11 @@ workflows:
     # Inside the workflow, you define the jobs you want to run.
     jobs:
       - build
+      - go/test:
+          name: test-go-1.15
+          gotestsum-format: testname
+          executor:
+            name: go/golang
+            tag: 1.15-alpine
+            
+
