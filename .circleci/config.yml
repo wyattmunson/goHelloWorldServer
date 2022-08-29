@@ -33,6 +33,9 @@ jobs:
           name: Run tests
           command: |
             mkdir -p /tmp/test-reports
+            echo "some message"
+            echo "ba"
+            exit 0
             gotestsum --format=standard-verbose --junitfile /tmp/test-reports/unit-tests.xml
 
       - store_test_results:
