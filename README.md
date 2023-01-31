@@ -3,6 +3,7 @@ GO + Docker + unit tests
 
 Change for commit.
 Another change.
+Another one.
 
 ## Running the app locally
 
