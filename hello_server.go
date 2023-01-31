@@ -63,6 +63,6 @@ func waitForShutdown(srv *http.Server) {
 	defer cancel()
 	srv.Shutdown(ctx)
 
-	log.Println("Shutting down gracefully 2")
+	log.Println("Shutting down gracefully 23")
 	os.Exit(0)
 }
