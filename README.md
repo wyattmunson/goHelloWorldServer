@@ -3,6 +3,7 @@ GO + Docker + unit tests
 
 Change for commit.
 Another one. 
+Change after updating trigger. 
 
 ## Running the app locally
 
